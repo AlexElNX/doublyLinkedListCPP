@@ -1,4 +1,15 @@
 ﻿  List.cpp
   dz34.cpp
+D:\Programming\C++ Itstep\VS\dz34\dz34\List.h(68,10): warning C4553: '==': result of expression not used; did you intend '='?
+  (compiling source file 'dz34.cpp')
+      D:\Programming\C++ Itstep\VS\dz34\dz34\List.h(68,10):
+      the template instantiation context (the oldest one first) is
+          D:\Programming\C++ Itstep\VS\dz34\dz34\dz34.cpp(6,21):
+          see reference to class template instantiation 'LinkedList<int>' being compiled
+          D:\Programming\C++ Itstep\VS\dz34\dz34\List.h(57,7):
+          while compiling class template member function 'void LinkedList<int>::deleteFromTail(void)'
+              D:\Programming\C++ Itstep\VS\dz34\dz34\dz34.cpp(22,24):
+              see the first reference to 'LinkedList<int>::deleteFromTail' in 'main'
+  
   Generating Code...
   dz34.vcxproj -> D:\Programming\C++ Itstep\VS\dz34\x64\Debug\dz34.exe

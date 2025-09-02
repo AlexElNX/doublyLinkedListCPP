@@ -60,7 +60,7 @@ int main()
     list.show();
 
     std::cout << "\n\n";
-    std::cout << list.find(999) << std::endl;
+    std::cout << list.find(222) << std::endl;
 
 
     list.addToTail(333);
@@ -70,7 +70,7 @@ int main()
 
 
     std::cout << "\n\n";
-    std::cout << list.find(333, 565) << std::endl;
+    std::cout << list.findAndReplace(333, 565) << std::endl;
 
     list.show();
 
